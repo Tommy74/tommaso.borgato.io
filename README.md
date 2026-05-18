@@ -1,5 +1,8 @@
 # tommaso.borgato.io
 
+## blog
+
+[tommasoborgato.hashnode.dev](https://tommasoborgato.hashnode.dev/)
 
 ## docs
 
