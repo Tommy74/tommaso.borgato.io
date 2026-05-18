@@ -6,6 +6,8 @@ DwarfStar 4 (ds4) is a self-contained C inference engine specifically for DeepSe
 
 The design philosophy is "single-model integration focused local AI": always target the best current open weights model that is practically fast on high-end personal machines (96-128GB+ RAM Macs, DGX Spark). The specific model may change over time, but the constraint stays narrow. The project uses asymmetric 2/8-bit quantization (only routed MoE experts are quantized to 2-bit; shared experts, projections, and routing stay at full precision).
 
+[Salvatore Sanfilippo](https://antirez.com/latest/0) is the author of the ds4 codebase;
+
 ## Build Commands
 
 ```sh
